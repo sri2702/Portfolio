@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+<template id="__bundler_thumbnail"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect width="200" height="200" fill="#4F5FE0"/><text x="30" y="115" font-family="Arial" font-size="72" fill="white" font-weight="bold">SG</text></svg></template>
+</head>
+<body>
+<x-dc>
+<helmet>
+<style>
+  @font-face { font-family: 'Inter'; src: local('Inter'); }
+  body { margin: 0; }
+  ::selection { background: color-mix(in oklch, var(--accent) 20%, transparent); }
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700;900&amp;display=swap" rel="stylesheet">
+</helmet>
+<div style="font-family:'Inter',Helvetica,Arial,sans-serif;background:oklch(0.985 0.004 90);color:oklch(0.19 0.01 90);min-height:100vh;--accent:{{ accentColor }};--display-font:{{ displayFont }};--display-weight:{{ displayWeight }};--item-border-w:{{ itemBorderW }};--item-bg:{{ itemBg }};--item-radius:{{ itemRadius }};--item-gap:{{ itemGap }};--item-pad:{{ itemPad }};">
+
+  <!-- NAV -->
+  <div style="position:sticky;top:0;z-index:10;display:flex;align-items:center;justify-content:space-between;padding:22px 64px;background:oklch(0.985 0.004 90 / 0.85);backdrop-filter:blur(8px);border-bottom:1px solid oklch(0.9 0.005 90);">
+    <div style="font-weight:800;font-size:20px;letter-spacing:-0.02em;">Sri Vishnu Gopinathan</div>
+    <div style="display:flex;gap:36px;align-items:center;">
+      <a href="#about" style="color:oklch(0.19 0.01 90);text-decoration:none;font-weight:500;font-size:15px;">About</a>
+      <a href="#education" style="color:oklch(0.19 0.01 90);text-decoration:none;font-weight:500;font-size:15px;">Education</a>
+      <a href="#work" style="color:oklch(0.19 0.01 90);text-decoration:none;font-weight:500;font-size:15px;">Work</a>
+      <a href="#skills" style="color:oklch(0.19 0.01 90);text-decoration:none;font-weight:500;font-size:15px;">Skills</a>
+      <a href="#publications" style="color:oklch(0.19 0.01 90);text-decoration:none;font-weight:500;font-size:15px;">Publications</a>
+      <a href="uploads/SriVishnu_Gopinathan_Resume.pdf" target="_blank" style="background:oklch(0.19 0.01 90);color:oklch(0.98 0.004 90);text-decoration:none;font-weight:600;font-size:14px;padding:10px 20px;border-radius:4px;">Resume ↓</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div style="padding:140px 64px 120px;max-width:1200px;margin:0 auto;">
+    <div style="display:inline-block;font-size:22px;font-weight:800;color:var(--accent);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:24px;background:color-mix(in oklch, var(--accent) 12%, transparent);padding:8px 18px;border-radius:6px;">Data Engineer</div>
+    <h1 style="font-size:80px;font-weight:var(--display-weight);font-family:var(--display-font);line-height:1.0;letter-spacing:-0.03em;margin:0 0 32px;max-width:960px;">I build the data infrastructure decisions run on.</h1>
+    <p style="font-size:22px;line-height:1.5;color:oklch(0.4 0.01 90);max-width:660px;margin:0 0 44px;"><br></p>
+    <div style="display:flex;gap:16px;flex-wrap:wrap;">
+      <a href="mailto:srivish1999@gmail.com" style="background:var(--accent);color:white;text-decoration:none;font-weight:700;font-size:16px;padding:16px 32px;border-radius:6px;">Get in touch</a>
+      <a href="https://www.linkedin.com/in/sri-vish" target="_blank" style="background:transparent;border:2px solid oklch(0.85 0.005 90);color:oklch(0.4 0.01 90);text-decoration:none;font-weight:700;font-size:16px;padding:14px 32px;border-radius:6px;">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=Io-i620AAAAJ&amp;hl=en" target="_blank" style="background:transparent;border:2px solid oklch(0.85 0.005 90);color:oklch(0.4 0.01 90);text-decoration:none;font-weight:700;font-size:16px;padding:14px 32px;border-radius:6px;">Google Scholar</a>
+      <a href="tel:+18327276936" style="background:transparent;border:2px solid oklch(0.85 0.005 90);color:oklch(0.4 0.01 90);text-decoration:none;font-weight:700;font-size:16px;padding:14px 32px;border-radius:6px;">+1 832-727-6936</a>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div id="about" style="padding:100px 64px;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:280px 1fr;gap:80px;border-top:1px solid oklch(0.9 0.005 90);">
+    <div style="font-size:14px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:oklch(0.55 0.01 90);">01 — About</div>
+    <div style="max-width:720px;">
+      <p style="font-size:28px;line-height:1.5;font-weight:600;letter-spacing:-0.01em;margin:0 0 24px;">Data Engineer with 5+ years designing and shipping scalable, high-performance data platforms on Microsoft Azure.</p>
+      <p style="font-size:17px;line-height:1.7;color:oklch(0.4 0.01 90);margin:0;">Expert in medallion-architecture modeling, distributed processing with Databricks and PySpark, SQL optimization, and CI/CD-driven data quality automation. Proven ability to migrate terabyte-scale legacy data into governed Delta Lake lakehouses and deliver analytics-ready assets through Synapse and Power BI that stakeholders trust and act on.</p>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div id="education" style="padding:100px 64px;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:280px 1fr;gap:80px;border-top:1px solid oklch(0.9 0.005 90);">
+    <div style="font-size:14px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:oklch(0.55 0.01 90);">02 — Education</div>
+    <div style="display:flex;flex-direction:column;gap:24px;max-width:720px;">
+      <sc-for list="{{ education }}" as="edu" hint-placeholder-count="2">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;gap:24px;border-bottom:1px solid oklch(0.92 0.005 90);padding-bottom:20px;">
+          <div>
+            <div style="font-size:18px;font-weight:700;margin-bottom:4px;">{{ edu.degree }}</div>
+            <div style="font-size:15px;color:oklch(0.4 0.01 90);">{{ edu.school }} — GPA {{ edu.gpa }}</div>
+          </div>
+          <div style="font-size:15px;font-weight:600;color:oklch(0.55 0.01 90);white-space:nowrap;">{{ edu.date }}</div>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+
+  <!-- WORK / EXPERIENCE -->
+  <div id="work" style="padding:100px 64px;max-width:1200px;margin:0 auto;border-top:1px solid oklch(0.9 0.005 90);">
+    <div style="font-size:14px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:oklch(0.55 0.01 90);margin-bottom:48px;">03 — Work &amp; Experience</div>
+
+    <div style="border:1px solid oklch(0.9 0.005 90);border-radius:16px;background:white;padding:36px;">
+      <div style="display:flex;flex-direction:column;gap:var(--item-gap);">
+        <sc-for list="{{ timeline }}" as="item" hint-placeholder-count="4">
+          <div style="border:var(--item-border-w) solid oklch(0.92 0.005 90);border-radius:var(--item-radius);background:var(--item-bg);overflow:hidden;">
+            <div style="display:grid;grid-template-columns:140px 1fr;align-items:center;gap:32px;padding:var(--item-pad);">
+              <div style="font-size:15px;font-weight:700;color:oklch(0.55 0.01 90);">{{ item.period }}</div>
+              <div>
+                <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
+                  <span style="font-size:11px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:oklch(0.4 0.01 90);background:oklch(0.9 0.005 90);padding:2px 8px;border-radius:4px;">Role</span>
+                  <span style="font-size:18px;font-weight:700;">{{ item.title }}</span>
+                </div>
+                <div style="font-size:15px;color:oklch(0.4 0.01 90);">{{ item.company }}</div>
+              </div>
+            </div>
+            <sc-if value="{{ true }}" hint-placeholder-val="{{ true }}">
+              <div style="padding:0 28px 28px;border-top:1px solid oklch(0.92 0.005 90);">
+                <ul style="font-size:15px;line-height:1.75;color:oklch(0.4 0.01 90);margin:0 0 24px;padding:20px 0 0 20px;max-width:720px;">
+                  <sc-for list="{{ item.detail }}" as="pt" hint-placeholder-count="4">
+                    <li style="margin-bottom:6px;">{{ pt }}</li>
+                  </sc-for>
+                </ul>
+                <sc-if value="{{ item.hasProjects }}" hint-placeholder-val="{{ false }}">
+                  <div style="font-size:12px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:oklch(0.55 0.01 90);margin-bottom:12px;">Related Projects</div>
+                  <div style="display:flex;flex-direction:column;gap:10px;">
+                    <sc-for list="{{ item.projects }}" as="proj" hint-placeholder-count="2">
+                      <div style="border:1px solid oklch(0.92 0.005 90);border-radius:10px;background:white;overflow:hidden;">
+                        <div onClick="{{ proj.toggle }}" style="cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 20px;">
+                          <div>
+                            <div style="display:flex;align-items:center;gap:10px;margin-bottom:2px;">
+                              <span style="font-size:10px;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;color:var(--accent);background:color-mix(in oklch, var(--accent) 12%, transparent);padding:2px 7px;border-radius:4px;">Project</span>
+                              <span style="font-size:16px;font-weight:700;">{{ proj.title }}</span>
+                            </div>
+                            <div style="font-size:14px;color:oklch(0.4 0.01 90);">{{ proj.summary }}</div>
+                          </div>
+                          <div style="font-size:18px;color:var(--accent);font-weight:700;transform:{{ proj.iconTransform }};transition:transform 0.2s;flex-shrink:0;">⌄</div>
+                        </div>
+                        <sc-if value="{{ proj.expanded }}" hint-placeholder-val="{{ false }}">
+                          <div style="padding:0 20px 20px;border-top:1px solid oklch(0.94 0.005 90);">
+                            <div style="font-size:12px;font-weight:700;color:oklch(0.55 0.01 90);letter-spacing:0.06em;text-transform:uppercase;padding-top:16px;margin-bottom:6px;">Problem</div>
+                            <div style="font-size:14px;line-height:1.7;color:oklch(0.4 0.01 90);margin-bottom:16px;max-width:680px;">{{ proj.problem }}</div>
+                            <div style="font-size:12px;font-weight:700;color:oklch(0.55 0.01 90);letter-spacing:0.06em;text-transform:uppercase;margin-bottom:6px;">Approach</div>
+                            <ul style="font-size:14px;line-height:1.7;color:oklch(0.4 0.01 90);margin:0 0 16px;padding-left:18px;max-width:680px;">
+                              <sc-for list="{{ proj.approach }}" as="pt" hint-placeholder-count="3">
+                                <li style="margin-bottom:5px;">{{ pt }}</li>
+                              </sc-for>
+                            </ul>
+                            <div style="font-size:12px;font-weight:700;color:oklch(0.55 0.01 90);letter-spacing:0.06em;text-transform:uppercase;margin-bottom:6px;">Outcome</div>
+                            <div style="font-size:14px;line-height:1.7;color:oklch(0.4 0.01 90);max-width:680px;">{{ proj.outcome }}</div>
+                          </div>
+                        </sc-if>
+                      </div>
+                    </sc-for>
+                  </div>
+                </sc-if>
+              </div>
+            </sc-if>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div id="skills" style="padding:100px 64px;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:280px 1fr;gap:80px;border-top:1px solid oklch(0.9 0.005 90);">
+    <div style="font-size:14px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:oklch(0.55 0.01 90);">04 — Skills &amp; Tools</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;">
+      <sc-for list="{{ skillGroups }}" as="group" hint-placeholder-count="3">
+        <div>
+          <div style="font-size:16px;font-weight:700;margin-bottom:16px;">{{ group.name }}</div>
+          <div style="display:flex;flex-direction:column;gap:10px;">
+            <sc-for list="{{ group.items }}" as="item" hint-placeholder-count="4">
+              <div style="font-size:15px;color:oklch(0.4 0.01 90);display:flex;align-items:center;gap:10px;">
+                <span style="width:6px;height:6px;border-radius:50%;background:var(--accent);flex-shrink:0;"></span>{{ item }}
+              </div>
+            </sc-for>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+
+  <!-- PUBLICATIONS -->
+  <div id="publications" style="padding:100px 64px;max-width:1200px;margin:0 auto;display:grid;grid-template-columns:280px 1fr;gap:80px;border-top:1px solid oklch(0.9 0.005 90);">
+    <div style="font-size:14px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:oklch(0.55 0.01 90);">05 — Publications</div>
+    <div style="display:flex;flex-direction:column;gap:20px;max-width:720px;">
+      <sc-for list="{{ publications }}" as="pub" hint-placeholder-count="4">
+        <div style="font-size:15px;line-height:1.7;color:oklch(0.4 0.01 90);padding-bottom:20px;border-bottom:1px solid oklch(0.92 0.005 90);">{{ pub }}</div>
+      </sc-for>
+    </div>
+  </div>
+
+  <!-- RESUME CTA -->
+  <div style="padding:80px 64px;max-width:1200px;margin:0 auto;border-top:1px solid oklch(0.9 0.005 90);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:24px;">
+    <div>
+      <div style="font-size:24px;font-weight:700;margin-bottom:6px;">Want the full picture?</div>
+      <div style="font-size:16px;color:oklch(0.4 0.01 90);">Download my resume for the complete work history and publications.</div>
+    </div>
+    <a href="uploads/SriVishnu_Gopinathan_Resume.pdf" target="_blank" style="background:oklch(0.19 0.01 90);color:white;text-decoration:none;font-weight:700;font-size:16px;padding:16px 32px;border-radius:6px;white-space:nowrap;">Download Resume ↓</a>
+  </div>
+
+  <!-- FOOTER -->
+  <div style="padding:32px 64px;max-width:1200px;margin:0 auto;border-top:1px solid oklch(0.9 0.005 90);display:flex;justify-content:space-between;font-size:14px;color:oklch(0.55 0.01 90);">
+    <div>© 2026 Sri Vishnu Gopinathan</div>
+    <div style="display:flex;gap:24px;">
+      <a href="https://www.linkedin.com/in/sri-vish" target="_blank" style="color:oklch(0.55 0.01 90);text-decoration:none;">LinkedIn</a>
+      <a href="https://scholar.google.com/citations?user=Io-i620AAAAJ&amp;hl=en" target="_blank" style="color:oklch(0.55 0.01 90);text-decoration:none;">Google Scholar</a>
+      <a href="tel:+18327276936" style="color:oklch(0.55 0.01 90);text-decoration:none;">+1 832-727-6936</a>
+      <a href="mailto:srivish1999@gmail.com" style="color:oklch(0.55 0.01 90);text-decoration:none;">Email</a>
+    </div>
+  </div>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;accentColor&quot;:{&quot;editor&quot;:&quot;color&quot;,&quot;default&quot;:&quot;#4F5FE0&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;#4F5FE0&quot;,&quot;#0F9D8B&quot;,&quot;#D97706&quot;,&quot;#334155&quot;],&quot;section&quot;:&quot;Look &amp; Feel&quot;},&quot;typeStyle&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;Bold Sans&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;Bold Sans&quot;,&quot;Editorial Serif&quot;],&quot;section&quot;:&quot;Look &amp; Feel&quot;},&quot;timelineStyle&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;default&quot;:&quot;Bordered Cards&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;options&quot;:[&quot;Bordered Cards&quot;,&quot;Minimal List&quot;],&quot;section&quot;:&quot;Look &amp; Feel&quot;}}">
+class Component extends DCLogic {
+  state = { expandedJob: null, expandedProjectKey: null };
+  toggleJob(i) {
+    this.setState(s => ({ expandedJob: s.expandedJob === i ? null : i }));
+  }
+  toggleProject(key) {
+    this.setState(s => ({ expandedProjectKey: s.expandedProjectKey === key ? null : key }));
+  }
+  renderVals() {
+    const accentColor = this.props.accentColor ?? '#4F5FE0';
+    const typeStyle = this.props.typeStyle ?? 'Bold Sans';
+    const timelineStyle = this.props.timelineStyle ?? 'Bordered Cards';
+    const displayFont = typeStyle === 'Editorial Serif' ? "'Source Serif 4', Georgia, serif" : "'Inter',Helvetica,Arial,sans-serif";
+    const displayWeight = typeStyle === 'Editorial Serif' ? 700 : 900;
+    const minimal = timelineStyle === 'Minimal List';
+    const itemBorderW = minimal ? '0px' : '1px';
+    const itemBg = minimal ? 'transparent' : 'oklch(0.985 0.004 90)';
+    const itemRadius = minimal ? '0px' : '12px';
+    const itemGap = minimal ? '2px' : '16px';
+    const itemPad = minimal ? '14px 4px' : '24px 28px';
+    const careerData = [
+      { period: 'Jan 2024—Present', role: 'Data Engineer', company: 'Taurus Industrial Group, LLC, Port Lavaca, TX', detail: [
+        'Built pipeline architectures and migrated 10TB+ of equipment, project, and maintenance data from legacy systems into ADLS Gen2 using Azure Data Factory with a Self-hosted Integration Runtime (SHIR), refining data from bronze to gold layers through medallion architecture in Databricks notebooks and workflows.',
+        'Modeled gold-layer star schemas with SCD Type 1 & 2 as Delta tables in ADLS, governed via Unity Catalog, publishing external Delta tables as Azure Synapse serverless views and loading curated data into Azure SQL DB for low-latency application reads.',
+        'Designed and built parameterized ADF pipeline architectures integrating AS400 to APM systems via SHIR, cutting manual data transfer effort by 60% through query optimization and incremental loads.',
+        'Managed source control and deployment of Databricks jobs via Databricks Asset Bundles and YAML CI/CD pipelines in Azure DevOps.',
+        'Built a REST API in Flask serving badge and expiration data for access validation, containerized with Docker and deployed to Azure Container Apps.',
+        'Built Power BI dashboards and paginated Power BI Report Builder reports tracking asset utilization, operational performance, and budget planning.',
+      ], projects: [
+        { title: 'ADLS Gen2 Migration & Gold-Layer Star Schema', summary: 'Migrated 10TB+ of equipment and maintenance data into governed gold-layer Delta tables.',
+          problem: 'Equipment, project, and maintenance data lived in legacy systems with no automated, governed path into modern analytics infrastructure, requiring heavy manual effort to move and reconcile.',
+          approach: [
+            'Built pipeline architectures and migrated 10TB+ of equipment, project, and maintenance data from legacy systems into ADLS Gen2 using Azure Data Factory with a Self-hosted Integration Runtime.',
+            'Refined data from bronze to gold layers through medallion architecture in Databricks notebooks and workflows.',
+            'Modeled gold-layer star schemas with SCD Type 1 & 2 as Delta tables in ADLS, governed via Unity Catalog.',
+            'Published external Delta tables as Azure Synapse serverless views for ad-hoc analytics and loaded curated data into Azure SQL DB for low-latency application reads.',
+            'Managed source control and deployment of Databricks jobs, resources, and notebooks through Databricks Asset Bundles and YAML CI/CD pipelines in Azure DevOps.',
+          ],
+          outcome: 'Delivered a governed, gold-layer data foundation spanning 10TB+ of migrated data, serving both ad-hoc Synapse analytics and low-latency application reads.' },
+        { title: 'AS400 to APM Integration', summary: 'Parameterized ADF pipelines cutting manual data transfer effort by 60%.',
+          problem: 'Asset Performance Management systems needed a reliable, automated feed from legacy AS400 systems, which previously relied on manual, error-prone data transfer.',
+          approach: [
+            'Designed and built parameterized, end-to-end ADF pipeline architectures integrating AS400 to APM (Asset Performance Management) systems via a Self-hosted Integration Runtime.',
+            'Reduced manual data transfer effort through SQL query optimization and incremental loads.',
+            'Managed source control and deployment of the underlying Databricks jobs and notebooks through Databricks Asset Bundles and YAML CI/CD pipelines in Azure DevOps.',
+          ],
+          outcome: 'Cut manual data transfer effort by 60% across the AS400-to-APM integration through query optimization and incremental loads.' },
+        { title: 'Badge Access REST API', summary: 'Flask REST API serving badge and expiration data, containerized and deployed to Azure Container Apps.',
+          problem: 'Access validation for badges and expiration data was handled through disconnected legacy lookups, with no consistent programmatic interface for downstream systems.',
+          approach: [
+            'Built a REST API in Python Flask serving badge and expiration data for access validation.',
+            'Containerized the API with Docker and managed deployment to Azure Container Apps through CI/CD.',
+          ],
+          outcome: 'Gave downstream systems a consistent, containerized service for access validation, deployed and managed through standard CI/CD pipelines.' },
+      ] },
+      { period: 'Jun 2023—Aug 2023', role: 'Summer Associate (Data Scientist)', company: 'Navy Federal Credit Union, Vienna, VA', detail: [
+        'Built Azure Databricks ingestion pipelines consuming high-volume transactional and operational event streams from Kafka topics via scheduled batch reads into Azure Data Lake, within a financial institution regulatory environment.',
+        'Developed PySpark jobs promoting raw data from bronze to curated gold Delta tables (medallion architecture), cleaning and transforming large customer datasets and governing access to sensitive financial fields via Unity Catalog on top of those Delta tables.',
+        'Performed big data analysis of member-level attributes in PySpark to identify indicators correlated with credit-card delinquency and assign risk tiers.',
+        'Contributed to a hybrid Prophet + LSTM (PyTorch) forecasting solution predicting monthly Credit Card Collections returns, supporting model tuning and evaluation.',
+        'Delivered Power BI dashboards combining streaming and batch sources to surface risk, delinquency, and segmentation insights for collections and risk-management teams.',
+      ], projects: [
+        { title: 'Kafka-to-Lakehouse Ingestion Pipelines', summary: 'Databricks pipelines streaming financial data into a medallion-architecture lakehouse.',
+          problem: 'High-volume transactional and operational event streams needed a reliable path into the data lake, with the strict access controls a financial institution regulatory environment requires.',
+          approach: [
+            'Built Azure Databricks ingestion pipelines consuming high-volume transactional and operational event streams from Kafka topics via scheduled batch reads into Azure Data Lake.',
+            'Developed PySpark jobs promoting raw data from bronze to curated gold Delta tables within a medallion architecture, cleaning and transforming large customer datasets and governing access to sensitive financial fields via Unity Catalog on top of those Delta tables.',
+          ],
+          outcome: 'Established a governed, repeatable ingestion layer for high-volume financial event data, ready for downstream risk and reporting use cases.' },
+        { title: 'Delinquency Risk Analysis & Dashboards', summary: 'PySpark risk-tier analysis and Power BI dashboards for collections and risk teams.',
+          problem: 'The collections and risk management teams lacked a clear, data-driven view of which member attributes correlated with credit-card delinquency.',
+          approach: [
+            'Performed big data analysis of member-level attributes in PySpark to identify indicators correlated with credit-card delinquency and assign members to risk tiers.',
+            'Delivered Power BI dashboards combining streaming and batch sources to surface risk, delinquency, and segmentation insights.',
+          ],
+          outcome: 'Gave collections and risk-management teams a clear, dashboard-driven view of delinquency risk and member segmentation.' },
+        { title: 'Credit Card Collections Forecasting', summary: 'Hybrid Prophet + LSTM model forecasting monthly collections returns.',
+          problem: 'The collections team needed reliable monthly forecasts of credit card collections returns to plan resourcing and targets.',
+          approach: [
+            'Contributed to a hybrid Prophet + LSTM (PyTorch) forecasting solution predicting monthly Credit Card Collections returns.',
+            'Engineered features from my delinquency risk analysis to optimize model performance.',
+            'Supported model tuning and evaluation against holdout months.',
+          ],
+          outcome: 'Delivered a forecasting model supporting monthly planning for the Credit Card Collections team.' },
+      ] },
+      { period: 'Aug 2022—Dec 2023', role: 'Research Assistant', company: 'University of Houston – Victoria, TX', detail: [
+        'Collaborated on research analyzing user behavior patterns using web data from Yelp and other review platforms, performing data cleaning and exploratory analysis in Python to improve user journey in web applications.',
+        'Worked on collection and preparation of student demographic and academic datasets for predictive analytics, storing sensitive data securely in encrypted MongoDB collections.',
+        'Performed data wrangling and analysis in Python and SQL to determine feature importance of survey responses in predicting student pass rate, then built and hyperparameter-tuned a feedforward neural network for regression using Keras and TensorFlow, helping academic advisors focus attention on students with lower scores.',
+        'Exposed the model through a REST API using Flask for real-time inference, with a supporting application for training, validation, and inference.',
+      ], projects: [
+        { title: 'Student Success Rate Prediction Model', summary: 'Tuned feedforward neural network exposed via REST API to flag at-risk students.',
+          problem: 'Academic advisors lacked an early, data-driven signal for which students were at risk of lower pass rates, making it hard to prioritize outreach and support.',
+          approach: [
+            'Collected and securely stored student demographic and academic data in encrypted MongoDB collections.',
+            'Performed data wrangling and feature-importance analysis to determine which surveyed factors most affected pass rate.',
+            'Built and hyperparameter-tuned a feedforward neural network for the regression task.',
+            'Exposed it through a REST API alongside a small application supporting model training, validation, and real-time inference.',
+          ],
+          outcome: 'Gave academic advisors a real-time prediction tool to help focus attention on students with lower predicted pass rates.' },
+      ] },
+      { period: 'Oct 2020—Jul 2022', role: 'Data Engineer', company: 'Tata Consultancy Services (TCS), Bengaluru, India', detail: [
+        'Delivered enterprise data engineering for a global System Integrator, building scalable batch processing for manufacturing, laboratory, and supply-chain datasets from on-prem and cloud sources, collaborating with cross-functional and vendor teams.',
+        'Developed and maintained end-to-end ETL/ELT pipelines in Azure Data Factory for automated ingestion, transformation, and loading into ADLS Gen2.',
+        'Built high-performance PySpark and Spark SQL notebooks in Databricks for large-scale transformation, aggregation, and feature engineering, writing curated data to Delta Lake.',
+        'Designed data validation and reconciliation frameworks (row counts, null checks, schema validation) in Python and SQL, improving accuracy and reducing quality issues.',
+        'Built CI/CD pipelines with Azure DevOps and Terraform (IaC) to provision infrastructure and enable seamless code promotion across environments; wrote SQL stored procedures, triggers, and window functions for daily operational reporting.',
+      ], projects: [] },
+    ];
+    const timeline = careerData.map((j, i) => ({
+      ...j,
+      title: j.role,
+      expanded: this.state.expandedJob === i,
+      iconTransform: this.state.expandedJob === i ? 'rotate(180deg)' : 'rotate(0deg)',
+      toggle: () => this.toggleJob(i),
+      hasProjects: j.projects.length > 0,
+      projects: j.projects.map((p, pi) => {
+        const key = i + '-' + pi;
+        return { ...p, expanded: this.state.expandedProjectKey === key, iconTransform: this.state.expandedProjectKey === key ? 'rotate(180deg)' : 'rotate(0deg)', toggle: () => this.toggleProject(key) };
+      }),
+    }));
+    return {
+      accentColor, displayFont, displayWeight, itemBorderW, itemBg, itemRadius, itemGap, itemPad,
+      timeline,
+      education: [
+        { degree: 'M.S. in Computer Science', school: 'University of Houston, Victoria, TX', gpa: '4.0', date: 'Dec 2023' },
+        { degree: 'B.E. in Electronics and Communication Engineering', school: 'Anna University, India', gpa: '3.92', date: 'Mar 2020' },
+      ],
+      publications: [
+        'S. V. Gopinathan and B. A. R, "PatchMSNet: A Multi-Scale Transformer-CNN Hybrid Network for Satellite Image Classification," 2025 IEEE 4th International Conference on Intelligent Reality (ICIR), Boston, MA, USA, 2025, pp. 1-8, doi: 10.1109/ICIR68135.2025.11361612.',
+        'Gopinathan, Sri Vishnu, and Muhammad Faraz Manzoor. "Efficient Multi-Class Analysis of Consumer Complaints Using Frozen MiniLM Embeddings and Neural Networks." International Journal of Advanced Computer Science & Applications 16.12 (2025).',
+        'Gopinathan, S. V., Latif, A. and R., B. A. (2026). FGAN-AD-U: Unsupervised Multi-Scale Graph-Transformer Reconstruction for Industrial Anomaly Detection. In Proceedings of the 18th International Conference on Agents and Artificial Intelligence - Volume 3: ICAART; ISBN 978-989-758-796-2; ISSN 2184-433X, SciTePress, pages 2073-2081. DOI: 10.5220/0014484400004052',
+        'Wan, Yun; Gopinathan, Sri Vishnu; Aggarwal, Palvi; Bogle, Sherrene; Rayana, Shebuti; and Wang, Xiwei, "A Survey of Student Counseling Systems: Functions, Designs, and Interactions" (2023). AMCIS 2023 TREOs. 11',
+      ],
+      skillGroups: [
+        { name: 'Languages', items: ['Python', 'SQL, T-SQL', 'Spark SQL, PySpark', 'Java', 'YAML'] },
+        { name: 'Azure Data Engineering', items: ['Azure Data Factory, ADLS Gen2', 'Azure Databricks, Delta Lake', 'Unity Catalog, Medallion Architecture', 'Azure Synapse Analytics', 'SCD Type 1 & 2, Kafka'] },
+        { name: 'Cloud & DevOps', items: ['Azure ML, Container Apps', 'Azure DevOps, Boards, Monitor', 'Terraform (IaC)', 'Databricks Asset Bundles', 'Docker, CI/CD, GitHub, JIRA'] },
+        { name: 'Data Security & Governance', items: ['Encryption, Access Controls', 'Auditing, Unity Catalog', 'Role-based Access', 'Regulatory-aware Handling'] },
+        { name: 'BI & Visualization', items: ['Power BI, Power Query, DAX', 'Power BI Report Builder', 'Analysis Services', 'Tableau'] },
+        { name: 'ML & AI / Backend', items: ['TensorFlow, Keras, PyTorch', 'Prophet, XGBoost, MLflow', 'Flask, SQLAlchemy, PyMongo', 'REST APIs, Microservices'] },
+      ],
+    };
+  }
+}
+</script>
+</body>
+</html>
